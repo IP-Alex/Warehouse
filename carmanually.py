@@ -42,7 +42,6 @@ def go_robot_m(command):
         while (gs.value() < 90 and (not globalvariable.stop_now)):
             print(gs.value())
             pass
-
     elif command == "4":
         lmLeft.run_forever(speed_sp = -(RSPEED))
         lmRight.run_forever(speed_sp = RSPEED)
